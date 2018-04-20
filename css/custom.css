@@ -1,0 +1,257 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron p {
+	color: green;
+	font-weight: 100;
+	padding: 0px 50px; 
+}
+
+ul.navbar-nav {
+	font-size: 13px;
+}
+
+ul.navbar-nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+li {
+	border-right: 1px solid #bbb;
+}
+
+footer {
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+
+body {
+  position: relative;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+
+.jumbotron {
+	text-align: center;
+	color: red;
+	background-image: url('../images/wisconsin-downtown-milwaukee.jpg');
+}
+
+#Find-Your-Home {
+	background-color: #f5f5f5;
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+.col-lg-4 {
+	text-align: center;
+}
+
+.homepage {
+	text-align: center;
+	padding: 30px;
+}
+
+.homepage h2, .homepage h3 {
+	color: #e74c3c;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+}
+
+.homepage h2{
+	font-size: 30px;
+}
+
+.homepage h3{
+	font-size: 26px;
+}
+
+.homepage p {
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage a {
+	color: #e74c3c;
+	background-color: white;
+}
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .8;
+}
+.homepage hr {
+	border-top: 1px solid#e74c3c;
+	width: 160px;
+	margin-top: 15px;
+}
+
+/* Modal styling */
+
+.modal-content {
+	position: relative;
+	margin-top: 150px;
+}
+
+.modal-dialog {
+	position: absolute;
+	left: 50%;
+	margin-left: -280px;
+	bottom: 50%;
+	margin-bottom: -158px;
+}
+
+.modal-content button.close {
+	position: absolute;
+	top: 5px;
+	right: -80px;
+	background-color: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	border-radius: 24px;
+	-webkit-border-raduis: 24px;
+	-moz-border-radius: 24px;
+}
+
+/* picture gallery modal */
+.modal-gallery {
+	background-color: white;
+}
+
+.modal-gallery button.close {
+	position: absolute;
+	top: 5px;
+	right: -80px;
+	background-color: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	border-radius: 24px;
+	-webkit-border-raduis: 24px;
+	-moz-border-radius: 24px;
+}
+
+/* responisve styling */
+
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotrom p{
+		padding: 0px 10px;
+	}
+	#Find-Your-Home .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotrom p {
+		padding: 0;
+		font-size: 16px;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+}
+
+#Back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#Back-to-top a {
+	color: #333
+}
+
+/* picture gallery formatting */
+.thumbnail img {
+	height:250px;
+	width:100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.nav-item:hover .dropbtn {
+    background-color: #3e8e41;
+
+}
+
+
+
+
